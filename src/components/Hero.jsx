@@ -34,14 +34,14 @@ const Hero = () => {
             />
           </div>
 
-          <h1 className="leading-[1.1] text-text-[2.25rem] ml-10 md:text-[3rem] lg:text-[3.94rem] font-bold text-white mb-11 tracking-wide ">
+          <h1 className="leading-[1.1] text-[2.25rem] md:text-[3rem] lg:text-[3.94rem] font-bold text-white mb-11 tracking-wide ">
             <span className="block w-full md:w-[45%] mx-auto">
               Dozens of apps. One subscription. <br />
               $9.99
             </span>
           </h1>
 
-          <div className="flex flex-col sm:flex-row gap-8 ml-4 justify-center mb-6 items-center">
+          <div className="flex flex-col sm:flex-row gap-8 justify-center mb-6 items-center">
             <button
               className="text-lg py-3 px-4 bg-white text-black shadow-md rounded"
             >

@@ -24,7 +24,7 @@ const Features = () => {
         id="features"
         className="py-20 bg-background relative overflow-hidden"
       >
-        <div className=" mx-auto px-32">
+        <div className=" mx-auto px-6 md:px-32">
           {/* Header Section */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-[103px] gap-6">
             <h2 className="text-2xl md:text-3xl lg:text-[36px] font-semibold leading-tight tracking-[1px] text-white mb-2 font-['Avenir_Next',system-ui,-apple-system,'Segoe_UI',Roboto,'Helvetica_Neue',Arial,'Noto_Sans',sans-serif]">

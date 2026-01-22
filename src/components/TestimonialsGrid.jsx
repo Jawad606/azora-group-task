@@ -57,7 +57,7 @@ const TestimonialCarousel = () => {
 
   return (
     <section className="bg-white  py-16 px-4 ">
-      <div className=" px-28 mx-auto ">
+      <div className=" px-6 md:px-28 mx-auto ">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start mb-3 gap-4">
           <div>
@@ -125,9 +125,9 @@ const TestimonialCarousel = () => {
               {/* Card */}
               <div className="bg-[#F5F5F5] rounded-3xl mt-6 p-2 flex justify-between items-center flex-col shadow-sm">
                 <div
-                  className={`${testimonial.bgColor} rounded-3xl p-10 flex-1 min-h-[320px] flex items-center`}
+                  className={`${testimonial.bgColor} rounded-3xl p-6 md:p-10 flex-1 min-h-[320px] flex items-center`}
                 >
-                  <p className="text-white text-2xl leading-relaxed font-normal">
+                  <p className="text-white text-lg md:text-2xl leading-relaxed font-normal">
                     {testimonial.text}
                   </p>
                 </div>

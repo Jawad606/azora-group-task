@@ -51,7 +51,7 @@ const TestimonialBanner = () => {
                         </div>
 
                         {/* Navigation Arrows */}
-                        <div className="absolute top-14 right-12 flex gap-7">
+                        <div className="absolute top-14 right-4 md:right-12 flex gap-7">
                             <button className="w-18 h-18  rounded-lg flex items-center justify-center transition-colors">
                                 <svg 
                                     className="w-8 h-8 text-[#b9a6b6]" 
