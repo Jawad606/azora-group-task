@@ -57,46 +57,46 @@ const TestimonialCarousel = () => {
 
   return (
     <section className="bg-white  py-16 px-4 ">
-      <div className="max-w-7xl mx-auto ">
+      <div className=" px-28 mx-auto ">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start mb-3 gap-4">
           <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 mb-2">
+            <h1 className="text-3xl md:text-4xl lg:text-4xl font-semibold text-gray-900 mb-2 leading-10">
               Setapp in your words.
             </h1>
           </div>
 
           {/* Social Icons */}
           <div className="flex flex-col md:flex-row gap-4 md:gap-10 w-full md:w-auto">
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg md:text-2xl text-gray-600">
               What you say about how Setapp
               <br />
               powers you up.
             </p>
-            <div className="flex gap-5">
+            <div className="flex gap-2">
               <a
                 href="#"
-                className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
+                className="w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
               >
-                <img className="w-12 h-12 md:w-14 md:h-14" src={Facebook} alt="Facebook" />
+                <img className="w-12 h-12 md:w-12 md:h-12" src={Facebook} alt="Facebook" />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
+                className="w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
               >
-                <img className="w-12 h-12 md:w-14 md:h-14" src={Twitter} alt="Twitter" />
+                <img className="w-12 h-12 md:w-12 md:h-12" src={Twitter} alt="Twitter" />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
+                className="w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
               >
-                <img className="w-12 h-12 md:w-14 md:h-14" src={Instagram} alt="Instagram" />
+                <img className="w-12 h-12 md:w-12 md:h-12" src={Instagram} alt="Instagram" />
               </a>
               <a
                 href="#"
-                className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
+                className="w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center text-white hover:opacity-90 transition"
               >
-                <img className="w-12 h-12 md:w-14 md:h-14" src={Youtube} alt="Youtube" />
+                <img className="w-12 h-12 md:w-12 md:h-12" src={Youtube} alt="Youtube" />
               </a>
             </div>
           </div>

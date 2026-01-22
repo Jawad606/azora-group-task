@@ -9,12 +9,12 @@ const TestimonialBanner = () => {
                 <div className="h-1/2 bg-white"></div>
             </div>
             
-            <div className="container mx-auto px-6 relative z-10 py-20">
+            <div className="container mx-auto px-9 relative z-10 py-20">
                 {/* Testimonial Card */}
                 <div className="relative w-full  mx-auto">
                     {/* Card with purple background matching the image */}
-                    <div className="bg-[#7b4d73] rounded-2xl pt-10 md:pt-20 shadow-2xl">
-                        <div className="flex flex-col md:flex-row items-center">
+                    <div className="bg-[#7b4d73] rounded-2xl pt-10 md:pt-10 shadow-2xl">
+                        <div className="flex flex-col md:flex-row items-center ml-3">
                             {/* Text Content */}
                             <div className="flex-1 text-left px-6 md:px-10 lg:px-20 md:pb-8">
                                 <p className="text-white text-lg md:text-xl lg:text-2xl font-medium leading-relaxed mb-6 w-full md:w-4/5">
@@ -25,9 +25,9 @@ const TestimonialBanner = () => {
                                 </p>
 
                                 {/* Play Button */}
-                                <button className="mt-10 md:mt-20 w-12 h-12 md:w-14 md:h-14 bg-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200 shadow-lg">
+                                <button className="mt-4 md:mt-40 w-12 h-12 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200 shadow-lg">
                                     <svg 
-                                        className="w-5 h-5 md:w-6 md:h-6 text-[#8B6B9E] ml-1" 
+                                        className="w-5 h-5 md:w-10 md:h-10 text-[#8B6B9E] " 
                                         fill="currentColor" 
                                         viewBox="0 0 24 24"
                                     >
@@ -38,7 +38,7 @@ const TestimonialBanner = () => {
 
                             {/* Person Image Placeholder */}
                             <div className="flex-shrink-0 w-full md:w-auto">
-                                <div className="w-full md:w-[670px] h-[400px] md:h-[690px] rounded-lg flex items-center justify-center overflow-hidden">
+                                <div className="w-full md:w-[670px] h-[400px] md:h-[690px] md:mr-20 rounded-lg flex items-center justify-center overflow-hidden">
                                     {/* Replace this div with actual image */}
                                     <img 
                                         src={personImage}
@@ -51,10 +51,10 @@ const TestimonialBanner = () => {
                         </div>
 
                         {/* Navigation Arrows */}
-                        <div className="absolute top-10 right-4 flex gap-2">
-                            <button className="w-10 h-10  rounded-lg flex items-center justify-center transition-colors">
+                        <div className="absolute top-14 right-12 flex gap-7">
+                            <button className="w-18 h-18  rounded-lg flex items-center justify-center transition-colors">
                                 <svg 
-                                    className="w-5 h-5 text-[#b9a6b6]" 
+                                    className="w-8 h-8 text-[#b9a6b6]" 
                                     fill="none" 
                                     stroke="currentColor" 
                                     viewBox="0 0 24 24"
@@ -62,9 +62,9 @@ const TestimonialBanner = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                                 </svg>
                             </button>
-                            <button className="w-10 h-10  rounded-lg flex items-center justify-center transition-colors">
+                            <button className="w-18 h-18 rounded-lg flex items-center justify-center transition-colors">
                                 <svg 
-                                    className="w-5 h-5 text-[#b9a6b6]" 
+                                    className="w-8 h-8 text-[#b9a6b6]" 
                                     fill="none" 
                                     stroke="currentColor" 
                                     viewBox="0 0 24 24"

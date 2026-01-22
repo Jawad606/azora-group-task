@@ -24,22 +24,22 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-background/80 backdrop-blur-md py-4 shadow-lg' : 'bg-transparent py-6'}`}>
-            <div className="container mx-auto px-6 flex items-center">
+        <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-background/80 backdrop-blur-md py-4 shadow-lg' : 'bg-transparent py-4'}`}>
+            <div className="mx-auto px-10 flex items-center">
                 {/* Left: Brand */}
                 <div className="flex-initial">
                     <a href="#" className="flex items-center gap-2">
-                        <img src={brandIcon} alt="Logo" className="h-10 w-auto" />
+                        <img src={brandIcon} alt="Logo" className="h-8 w-auto" />
                     </a>
                 </div>
 
                 {/* Right: Navigation links + Try free button */}
-                <div className="hidden md:flex flex-1 justify-end items-center gap-8">
+                <div className="hidden md:flex flex-1 justify-end items-center gap-[30px]">
                     {navLinks.map((link) => (
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+                            className="text-white/80 hover:text-white transition-colors text-md font-medium "
                         >
                             {link.name}
                         </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                         >
                             Sign In
                         </a>
-                    <Button variant="outline" className="px-4 py-1 text-sm rounded-md">
+                    <Button variant="outline" className="px-6 py-1 text-sm rounded-md">
                         Try free
                     </Button>
                 </div>
@@ -90,7 +90,7 @@ const Navbar = () => {
                                 Sign In
                             </a>
                         </div>
-                        <Button variant="outline" className="px-4 py-1 text-sm rounded-md w-fit">
+                        <Button variant="outline" className="px-6 py-1 text-sm rounded-md w-fit">
                             Try free
                         </Button>
                     </div>
